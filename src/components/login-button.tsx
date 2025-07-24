@@ -1,5 +1,5 @@
 "use client"
-import { JSX, useState } from 'react';
+import { useState } from 'react';
 import { Button } from './ui/button';
 
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
