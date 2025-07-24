@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import ModeToggle from "./mode-toggle"
 
 
 const Navbar = () => {
@@ -8,8 +9,9 @@ const Navbar = () => {
       <div className="logo text-xl md:text-4xl">
        <Link href="/">Briefly</Link>
       </div>
-      <div className="login">
+      <div className="flex gap-4">
         <Button size='lg'>Sign in</Button>
+      <ModeToggle/>
       </div>
     </div>
   )
