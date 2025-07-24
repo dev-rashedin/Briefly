@@ -27,7 +27,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html
+      lang='en'
+      suppressHydrationWarning
+      className='[scrollbar-gutter:stable]'
+    >
       <body className={`${inter.className} antialiased container mx-auto p-4 `}>
         <ThemeProvider
           attribute='class'
