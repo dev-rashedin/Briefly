@@ -26,11 +26,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body
-        className={`${inter.className} antialiased container mx-auto p-4 border-2 border-red-500`}
+        className={`${inter.className} antialiased container mx-auto p-4 `}
       >
-        <Navbar/>
+        <Navbar />
         {children}
       </body>
     </html>
