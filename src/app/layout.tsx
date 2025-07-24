@@ -32,7 +32,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className='[scrollbar-gutter:stable]'
     >
-      <body className={`${inter.className} antialiased container mx-auto p-4 `}>
+      <body className={`${inter.className} antialiased container mx-auto  p-4`}>
         <ThemeProvider
           attribute='class'
           defaultTheme='system'

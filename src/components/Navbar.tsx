@@ -5,8 +5,8 @@ import LoginButton from './login-button';
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between'>
-      <div className='logo text-xl md:text-4xl'>
+    <div className='flex justify-between items-center py-2'>
+      <div className='logo text-3xl md:text-4xl'>
         <Link href='/'>Briefly</Link>
       </div>
       <div className='flex gap-4'>
